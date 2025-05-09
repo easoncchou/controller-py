@@ -3,12 +3,15 @@ import pyautogui
 import time
 
 # SETTINGS - CUSTOMIZABLE
-mouse_speed = 40        # CURSOR SPEED (LEFT STICK)
-left_deadzone = 0.3     # LEFT JOYSTICK DEADZONE
+mouse_speed = 50        # CURSOR SPEED (LEFT STICK)
+left_deadzone = 0.4     # LEFT JOYSTICK DEADZONE
 right_deadzone = 0.3    # RIGHT JOYSTICK DEADZONE  
-scroll_speed = 250      # SCROLL SPEED (RIGHT STICK)
+scroll_speed = 280      # SCROLL SPEED (RIGHT STICK)
 dpad_speed = 10          # DPAD STEP SIZE
-sleep_delay = 0.0005    # SMOOTHNESS VS. CPU USAGE
+sleep_delay = 0.001    # SMOOTHNESS VS. CPU USAGE
+
+# try mouse_speed = 20 and dpad_speed = 100 to let stick do fine adj.
+# try mouse_speed = 50 and dpad_speed = 10 to let dpad do fine adj.
 
 # Initialize pygame
 pygame.init()
